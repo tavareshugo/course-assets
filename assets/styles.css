@@ -1,0 +1,64 @@
+/**
+* Importing fa icons
+*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: Lato;
+  font-size: 15px;
+  color: #373D3F;
+}
+
+pre code {
+  font-size: 15px;
+}
+
+
+/*---- "details" element ----*/
+/* usually used for exercise answers */
+
+details {
+/*  background: #373c3e;
+  color: #f1f3f4;*/
+  padding: .5rem 1rem;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+details summary > * {
+  display: inline;
+}
+
+
+
+/* Tabs */
+.tab-content {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+
+pre,
+pre.sourceCode {
+  overflow: auto;
+}
+
+pre code {
+  white-space: pre;
+}
+
+
+/* CSS for icons part of a link */
+
+a span[class*=fa] {
+  margin-right: 5px;
+  font-size: 14px;
+}
